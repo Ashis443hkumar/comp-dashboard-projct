@@ -15,7 +15,6 @@ body{
   right: 0;
   top: 0;
   z-index: 999;
-
 }
 .desh_top_menu .dash_top{
   display: flex;
@@ -23,7 +22,7 @@ body{
   align-items: center;
 }
 .menu_bargar{
-  margin-left: 300px;
+  margin-left: 260px;
 }
 .menu_bargar i{
   font-size: 23px;
@@ -65,10 +64,15 @@ body{
   height: 90vh;
   overflow-y: scroll;
   background-color: #111827;
+  margin-top: 53px;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 .left_div .logo{
   background-color: #000;
   padding: 0px 0px;
+  margin-top: 10px;
 }
 .left_div .logo h2 {
   text-align: center;
@@ -154,32 +158,33 @@ body{
   grid-gap: 2rem 1rem;
 }
 .box_content {
-  background-color: rgb(0, 157, 255);
+  background-color: #6a89cc;
   color: #000;
   box-shadow: 0px 0px 12px rgba(231, 223, 233, 0.61);
 }
 
-/* .color_coming{
-  background-color: yellow;
+.color_coming{
+  background-color: #2ecc71;
 }
 .color_register{
-  background-color: peru;
+  background-color: #e55039;
 }
 .color_deposit{
-  background-color: red;
+  background-color: #EE5A24;
 }
 .color_admin{
-  background-color: skyblue;
+  background-color: #38ada9;
 }
 .color_bank{
-  background-color: pink;
+  background-color: #FC427B;
 }
 .color_withdraw{
-  background-color: rgb(238, 238, 238);
+  background-color: #ffcccc;
 }
 .color_series{
-  background-color: greenyellow;
-} */
+  background-color: #4cd137;
+} 
+
 .user{
   display: flex;
   justify-content: space-between;
@@ -206,6 +211,13 @@ body{
   text-align: center;
   z-index: 1;
 }
+/* .btn_color_register{
+  background-color: #e5397e;
+}
+.btn_color_admin{
+  background-color: ;
+} */
+
 .more_info a{
   text-decoration: none;
   color: #fff;
@@ -371,4 +383,11 @@ button.rest{
   background-color: #f3f4f6;
   color: #000;
   margin-right: 10px;
+}
+
+.nav_login{
+  margin: 300px;
+  margin-top: 140px;
+  z-index: 999;
+
 }
